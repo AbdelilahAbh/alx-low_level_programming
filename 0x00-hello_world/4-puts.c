@@ -1,9 +1,8 @@
 #include <stdio.h>
-
 /**
- * main - print message 
+ *main - Print special message
  *
- * Return: Always 0 (Success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
