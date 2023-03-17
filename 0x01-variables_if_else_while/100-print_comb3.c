@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 /**
  * main - prints all possible different combinations of two digits
  *
@@ -7,16 +7,16 @@
  */
 int main(void)
 {
-	int i, j;
+	int n, m;
 
-	for (i = 48; n <= 56; n++)
+	for (n = 48; n <= 56; n++)
 	{
 		for (m = 49; m <= 57; m++)
 		{
 			if (m > n)
 			{
-				putchar(i);
-				putchar(j);
+				putchar(n);
+				putchar(m);
 				if (n != 56 || m != 57)
 				{
 					putchar(',');
