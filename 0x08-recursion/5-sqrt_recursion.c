@@ -18,6 +18,15 @@ int _sqrt_recursion(int n)
 	return (find_root_sqrt_recursion(n, 0));
 }
 
+/**
+ * find_root_sqrt_recursion - functon that's find the root of sqrt
+ *
+ * @n: number use to calculate sqrt root
+ * @c: counter tha count
+ *
+ * Return: integer
+ */
+
 int find_root_sqrt_recursion(int n, int c)
 {
 	if (c * c > n)
