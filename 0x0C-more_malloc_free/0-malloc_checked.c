@@ -2,11 +2,11 @@
 #include "main.h"
 
 /**
- * _puts_recursion -print string
+ * malloc_checked - allocation memory
  *
- * @s: input
+ * @b: number of memory allocate (in bytes)
  *
- * Return: void.
+ * Return: pointer
  */
 void *malloc_checked(unsigned int b)
 {
