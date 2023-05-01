@@ -3,7 +3,7 @@
 
 struct listint
 {
-	unsigned int n;
+	int n;
 	struct listint *next;
 };
 typedef struct listint listint_t;
