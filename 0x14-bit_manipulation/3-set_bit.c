@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * set_bit - sets a bit 
+ * set_bit - sets a bit
  * @n: pointer to the number to change
  * @index: index of the bits
  *
