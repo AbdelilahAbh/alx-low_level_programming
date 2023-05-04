@@ -2,7 +2,7 @@
 
 /**
  * clear_bit - sets the value
- * @n: pointer to the number 
+ * @n: pointer to the number
  * @index: index of the bit
  *
  * Return: integer
