@@ -12,7 +12,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	FILE *fp = fopen("filename", "r");
 	char beff[255];
-	size_t i;
 
 	if (fp == NULL)
 		return (0);
@@ -22,11 +21,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	if (fgets(beff, letters, fp) != NULL)
 	{
-		fprintf(fp,"%s");
-		//for (i = 0; i < letters; i++)
-		//{
-		//	_putchar(beff);
-		//}
 	}
 
 	return (letters);
