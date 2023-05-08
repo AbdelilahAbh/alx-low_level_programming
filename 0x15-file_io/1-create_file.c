@@ -5,12 +5,12 @@
  * create_file - creates a file.
  * @filename: the name of file
  * @text_content: text create
- * Return: number of read (seccus), 0 failed
+ * Return: 1 (seccus), -1 failed
  */
 
 int create_file(const char *filename, char *text_content)
 {
-	ssize_t w, i, fb;
+	int w, i, fb;
 
 	if (!filename)
 		return (-1);
