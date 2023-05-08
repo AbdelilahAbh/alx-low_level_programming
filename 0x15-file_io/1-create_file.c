@@ -10,9 +10,9 @@
 
 int create_file(const char *filename, char *text_content)
 {
-	int w, i, fb;
+	int w, fb, i = 0;
 
-	if (!filename)
+	if (filename == NULL)
 		return (-1);
 
 	if (text_content != NULL)
@@ -22,11 +22,9 @@ int create_file(const char *filename, char *text_content)
 	}
 
 	fb = open(filename, O_CREAT | O_RDWR | O_TRUNC, 0600);
-	if (fb == -1)
-		return (-1);
-
 	w = write(fb, text_content, i);
-	if (w == -1)
+
+	if (fb == -1 || w == -1)
 		return (-1);
 	close(fb);
 
